@@ -1,12 +1,10 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { View, Text } from 'react-native';
 
-const App = () => {
+export default function App() {
   return (
-    <View>
-      <Text>App</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>RN UI Mastery 🚀</Text>
     </View>
-  )
+  );
 }
-
-export default App
